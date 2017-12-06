@@ -20,6 +20,7 @@
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
             <properties>
+              <inheritsPopupMenu value="false"/>
               <text value="username"/>
             </properties>
           </component>
@@ -40,13 +41,14 @@
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
           </vspacer>
-          <component id="d966d" class="javax.swing.JButton" binding="button1" default-binding="true">
+          <component id="d966d" class="javax.swing.JButton" binding="loginButton">
             <constraints>
               <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
             <properties>
               <label value="Login"/>
+              <multiClickThreshhold value="1"/>
               <text value="Login"/>
             </properties>
           </component>
@@ -71,6 +73,14 @@
           </component>
         </children>
       </grid>
+      <component id="7bbf5" class="javax.swing.JTextField" binding="createAccnt">
+        <constraints border-constraint="South"/>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+          <text value="Don't have an account? Click Here"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>
